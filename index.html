@@ -9,94 +9,117 @@
       content="Это практическая работа с бесплатного курса от Владилена Минина"
     />
     <meta name="keywords" content="Result.school, курсы HTML CSS" />
-
+    <link rel="stylesheet" href="scc.css" />
     <title>My BIO</title>
   </head>
+
   <body>
-    <img src="My_Face.jpeg" alt="Мое Фото" width="200" />
-    <h1>Владислав Балабанов</h1>
-
-    <p>
-      Уже 2 года, как понимание того, что <em> <b>раб</b>ота в банке </em> не
-      приносит удовольствия - не дает покоя.
-    </p>
-
-    <p>
-      Интерес к программированию появился еще в униврситете, там я учился на
-      экономическом направлении :( Очень хочется овладеть знаниями и скиллом
-      <strong>JavaScript </strong> и работать в IT!
-    </p>
-    <hr />
-    <p><b>Социальные сети:</b></p>
-    <a class="btn btn-primary" href="#" target="_blank">Твиттерский</a>
-    <br />
-    <hr />
-
-    <h2>Мои увлечения</h2>
-
-    <ul>
-      <li>Пишу брейккор</li>
-      <li>Тренирую собак</li>
-      <li>Люблю League of legends</li>
-    </ul>
-
-    <h2>Опыт работы</h2>
-
-    <table>
-      <thead>
-        <tr>
-          <th>Название организации</th>
-          <th>Должность</th>
-          <th>Период работы</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Пиццерия</td>
-          <td>Курьер</td>
-          <td>пол года</td>
-        </tr>
-        <tr>
-          <td>Центр поддержки малого и среднего предп-ва</td>
-          <td>Экономист</td>
-          <td>пол года</td>
-        </tr>
-        <tr>
-          <td>Банк ВТБ</td>
-          <td>Старший Менеджер</td>
-          <td>3 года</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <br />
-    <hr />
-
-    <h2>Связаться со мной</h2>
-    <form>
-      <div>
-        <label for="name">Ваше Имя: </label>
-        <input id="name" type="text" placeholder="Введите имя" />
+    <div class="container">
+      <div class="info">
+        <div class="one">
+          <img src="My_Face.jpeg" alt="Мое Фото" width="200" />
+        </div>
+        <div class="one-1">
+          <h1>Владислав Балабанов</h1>
+          <p>
+            Уже 2 года, как понимание того, что
+            <em> <b>раб</b>ота в банке </em> не приносит удовольствия - не дает
+            покоя.
+          </p>
+          <p>
+            Интерес к программированию появился еще в униврситете, там я учился
+            на экономическом направлении :( Очень хочется овладеть знаниями и
+            скиллом
+            <strong>JavaScript </strong> и работать в IT!
+          </p>
+        </div>
+      </div>
+      <div class="card-0 all">
+        <h2>Социальные сети:</h2>
+        <button class="btn">
+          <a class="btn" href="https://twitter.com/Us2fall" target="_blank"
+            >Твиттерский</a
+          >
+        </button>
+        <button class="bts">
+          <a
+            class="bts"
+            href="https://www.instagram.com/balabanov_vlad/"
+            target="_blank"
+          >
+            Инстаграмский</a
+          >
+        </button>
       </div>
 
-      <div>
-        <label for="email">Ваш email: </label>
-        <input id="email" type="email" placeholder="Введите email" />
+      <div class="card-1 all links">
+        <h2>Мои увлечения</h2>
+        <ul>
+          <li>Пишу брейккор</li>
+          <li>Тренирую собак</li>
+          <li>Люблю League of legends</li>
+        </ul>
       </div>
 
-      <div>
-        <label for="message">Ваше сообщение:</label>
-        <br />
-        <textarea
-          id="message"
-          cols="25"
-          rows="5"
-          placeholder="Введите сообщение"
-        >
-        </textarea>
+      <div class="card-2 all table">
+        <h2>Опыт работы</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Название организации</th>
+              <th>Должность</th>
+              <th>Период работы</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Пиццерия</td>
+              <td>Курьер</td>
+              <td>пол года</td>
+            </tr>
+            <tr>
+              <td>Центр поддержки малого и среднего предп-ва</td>
+              <td>Экономист</td>
+              <td>пол года</td>
+            </tr>
+            <tr>
+              <td>Банк ВТБ</td>
+              <td>Старший Менеджер</td>
+              <td>3 года</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-      <input type="submit" value="Отправить!" />
-      <button>Отправить!</button>
-    </form>
+      <hr />
+      <div class="card-3 all">
+        <form class="form">
+          <h2>Связаться со мной</h2>
+          <div class="row">
+            <div class="form-group">
+              <label for="name">Ваше Имя: </label>
+              <input id="name" type="text" placeholder="Введите имя" />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Ваш email: </label>
+              <input id="email" type="email" placeholder="Введите email" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Ваше сообщение:</label>
+            <textarea
+              id="message"
+              cols="25"
+              rows="5"
+              placeholder="Введите сообщение..."
+            ></textarea>
+          </div>
+          <button class="btn">Отправить!</button>
+        </form>
+      </div>
+    </div>
+
+    <div></div>
   </body>
 </html>
